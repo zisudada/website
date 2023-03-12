@@ -19,5 +19,10 @@ from WebsiteApp import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('',views.index),
-    path('login',views.login)
+    path('login',views.login),
+    path('blog',views.blog)
 ]
+
+
+handler404 = 'WebsiteApp.views.page_not_found'
+handler500 = 'WebsiteApp.views.page_error'

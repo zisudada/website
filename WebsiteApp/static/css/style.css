@@ -31,12 +31,11 @@ main {
 
 .nav .btn {
 	white-space: nowrap;
-	position: relative;
-	padding: 1%;
-	color: #000;
-	border: 1;
 	text-decoration: none;
-	vertical-align: middle;
+	color: #000;
+	position: relative;
+	margin: 1%;
+	padding:1%;
 }
 
 .log-in-outline {

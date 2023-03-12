@@ -17,3 +17,18 @@ def login(req):
         return HttpResponse('ok')
     pass
   return render(req,'login.html')
+
+def blog(req):
+    """blog html
+
+    :function: TODO
+    :returns: TODO
+
+    """
+    return render(req,'blog.html')
+
+def page_not_found(req, exception):
+    return render(req, 'err/404_page.html')
+
+def page_error(req):
+    return render(req, 'err/500_page.html')
