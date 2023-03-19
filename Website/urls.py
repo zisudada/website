@@ -20,7 +20,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('',views.index),
     path('login',views.login),
-    path('blog',views.blog)
+    path('blogs',views.blogs)
 ]
 
 

@@ -18,14 +18,14 @@ def login(req):
     pass
   return render(req,'login.html')
 
-def blog(req):
+def blogs(req):
     """blog html
 
     :function: TODO
     :returns: TODO
 
     """
-    return render(req,'blog.html')
+    return render(req,'blogs.html')
 
 def page_not_found(req, exception):
     return render(req, 'err/404_page.html')
