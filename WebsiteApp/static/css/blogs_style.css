@@ -4,9 +4,13 @@
 	box-sizing: border-box;
 }
 
+main{
+	display: flex;
+}
+
 .sidebar{
 	position: fixed;
-	width: 15%;
+	width: 12%;
 	height: 100%;
 	display: flex;
 	flex-direction: column;
@@ -14,8 +18,16 @@
 	background-color: blue;
 }
 
+.content{
+	background-color: green;
+}
+
 .btn{
 	background-color: red;
-	width: 200px;
-	height: 100pc;
+	white-space: nowrap;
+    text-decoration: none;
+    color: #000;
+    position: relative;
+    margin: 1%;
+    padding:1%;
 }
