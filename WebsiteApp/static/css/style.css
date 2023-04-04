@@ -30,12 +30,16 @@ main {
 }
 
 .nav .btn {
+	position: relative;
+	text-align: center;
+	margin: auto 0;
+	padding:2%;
+}
+
+.nav .btn a{
 	white-space: nowrap;
 	text-decoration: none;
-	color: #000;
-	position: relative;
-	margin: 1%;
-	padding:1%;
+	color: #fff;
 }
 
 .log-in-outline {
