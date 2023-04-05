@@ -17,4 +17,8 @@
 
 <a target="_blank" href="http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=UGJhYWNgaWdpYmIQISF_Mz89" style="text-decoration:none;">QQ邮箱</a>
 
+尾声
+========
+
 ###最后祝你们幸福美好的活下去###
+![点赞](http://m.qpic.cn/psc?/V108hSuT2qlwzb/ruAMsa53pVQWN7FLK88i5hkx5OzsjbK8vQBSfXpIkNCEdc*4bE4WhfWyGoVNvtUfuSOBaOFml79S.reyPA8uHRE0X0Bx8Z7ZT5c9JT*.na0!/b&bo=HAIcAhwCHAICh6M!&rf=viewer_4)
