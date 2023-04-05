@@ -14,7 +14,7 @@
 
 联系我
 ========
-[QQ邮箱](2113097922@qq.com)
 
 <a target="_blank" href="http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=UGJhYWNgaWdpYmIQISF_Mz89" style="text-decoration:none;">QQ邮箱</a>
 
+###最后祝你们幸福美好的活下去###
