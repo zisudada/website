@@ -24,9 +24,10 @@ urlpatterns = [
     path('',views.index),
     path('login',views.login),
     path('blogs',views.blogs),
+    path('stories',views.stories),
     path('favicon.ico', serve, {'path': '../WebsiteApp/static/favicon.ico'})
 ]
 
 
 handler404 = 'WebsiteApp.views.page_not_found'
-handler500 = 'WebsiteApp.views.page_error'
+#handler500 = 'WebsiteApp.views.page_error'

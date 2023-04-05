@@ -10,12 +10,14 @@ def index(req):
 
 def login(req):
   if req.method == "POST":
-    user = UserInfo.objects.filter(user_name=req.POST.get("user"))
-    if user.exists():
-      _user = user.first()
-      if _user.user_password == req.POST.get("password"):
-        return HttpResponse('ok')
-    pass
+    user = req.POST.get('user')
+    password = req.POST.get('password')
+    try:
+        _user = UserInfo.objects.filter(user=user_name).first
+    except:
+        return HttpResponse('错了')
+    if _user.user_password == password:
+        return HttpResponse('对了')
   return render(req,'login.html')
 
 def blogs(req):
@@ -26,6 +28,15 @@ def blogs(req):
 
     """
     return render(req,'blogs.html')
+
+def stories(req):
+    """stories html
+
+    :function: TODO
+    :returns: TODO
+
+    """
+    return render(req,'stories.html')
 
 def page_not_found(req, exception):
     return render(req, 'err/404_page.html')
