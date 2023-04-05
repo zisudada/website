@@ -16,11 +16,15 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from WebsiteApp import views
+from django.contrib.staticfiles.views import serve
+
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('',views.index),
     path('login',views.login),
-    path('blogs',views.blogs)
+    path('blogs',views.blogs),
+    path('favicon.ico', serve, {'path': '../WebsiteApp/static/favicon.ico'})
 ]
 
 
