@@ -5,13 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>login</title>
+	<link rel="stylesheet" href="../static/css/login_style.css" type="text/css" media="screen" title="no title" charset="utf-8">
 </head>
 <body>
-    <form action="" method="POST">
-		{% csrf_token %}
-		<input type="text" name="user">
-        <input type="password" name="password">
-        <input type="submit" value="ok">
-    </form>
+<script src="../static/js/javascript.js" charset="utf-8"></script>
+	<main class="bg">
+		<form class="login-form" action="" method="POST">
+                {% csrf_token %}
+        <input class="user_input" type="text" name="user">
+        <input class="password_input" type="password" name="password">
+        
+	<button type="submit">登录</button>
+    </form>			
+	</main>
 </body>
 </html>

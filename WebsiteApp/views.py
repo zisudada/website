@@ -13,10 +13,11 @@ def login(req):
     user = req.POST.get('user')
     password = req.POST.get('password')
     try:
-        _user = UserInfo.objects.filter(user=user_name).first
+        _user = UserInfo.objects.filter(user_name=user).first()
     except:
         return HttpResponse('错了')
     if _user.user_password == password:
+#    print(_user.user_password)
         return HttpResponse('对了')
   return render(req,'login.html')
 
