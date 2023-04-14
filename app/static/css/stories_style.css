@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+	box-sizing: border-box;
+}
+
+main{
+	display: flex;
+}
+
+.sidebar{
+	position: fixed;
+	width: 12%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-color: blue;
+}
+
+.content{
+	background-color: green;
+}
+
+.btn{
+	background-color: red;
+	white-space: nowrap;
+    text-decoration: none;
+    color: #000;
+    position: relative;
+    margin: 1%;
+    padding:1%;
+}
