@@ -1,18 +1,21 @@
 * {
-    paddin: 0;
-    margin: 0;
-	box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
 }
 
-main{
+main {
 	display: flex;
 	flex-direction: column;
 }
 
-.top {
+.up {
         background: rgba(255, 255, 255, 0.3);
+        position: relative;
         display: flex;
         justify-content: space-between;
+        width: 100%;
+        height: 10%;
 }
 
 .nav {
@@ -20,45 +23,15 @@ main{
         justify-content: start;
 }
 
-.nav_btn {
+.nav .btn {
         position: relative;
         text-align: center;
         margin: auto 0;
         padding:2%;
 }
 
-.nav_btn a{
+.nav .btn a{
         white-space: nowrap;
         text-decoration: none;
         color: #fff;
-
-.down{
-
-}
-
-.down .sidebar{
-	position: fixed;
-	width: 12%;
-	height: 100%;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	background-color: blue;
-}
-
-.down .content{
-	position: relative;
-	width: 100%;
-	height: 100%;
-	background-color: green;
-}
-
-.down .btn{
-	background-color: red;
-	white-space: nowrap;
-    text-decoration: none;
-    color: #000;
-    position: relative;
-    margin: 3%;
-    padding:1%;
 }
