@@ -8,7 +8,8 @@ body {
 
 }
 
-.left-content .novels-list form input[type="submit"] {
+.select-novel {
+	background-color: rgba(255, 255, 255, 0.0);
 	border: none;
 	outline: none;
 }
